@@ -1,0 +1,19 @@
+
+Aqui está a estrutura do código para o portfólio interativo de BI. Ele inclui uma introdução, galeria de projetos, lista de habilidades e uma seção de contato. Comentei cada parte para facilitar a edição e manutenção. A organização em pastas é indicada no início.
+
+Estrutura de Pastas
+scss
+Copiar código
+portfolio/
+│
+├── index.html         (Página principal)
+├── dashboards/
+│   ├── dashboard1.html
+│   ├── dashboard2.html
+│   ├── dashboard3.html
+│
+├── css/
+│   ├── style.css       (Estilos principais)
+│
+├── js/
+│   ├── main.js         (JavaScript interativo)

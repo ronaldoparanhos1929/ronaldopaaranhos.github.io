@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio de BI - Ronaldo Paranhos Carvalho</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <!-- Header -->
+  <header class="header">
+    <h1>Ronaldo Paranhos Carvalho</h1>
+    <p>Profissional de BI | Gestão de Dados | Power BI</p>
+  </header>
+
+  <!-- Introdução -->
+  <section class="introduction">
+    <h2>Bem-vindo</h2>
+    <p>Transformando dados em decisões estratégicas. Conheça meus projetos e habilidades.</p>
+  </section>
+
+  <!-- Projetos -->
+  <section class="projects">
+    <h2>Projetos</h2>
+    <div class="gallery">
+      <div class="thumbnail" onclick="loadDashboard('dashboard1.html')">
+        <img src="img/dashboard1.png" alt="Dashboard 1">
+        <p>Dashboard de Vendas</p>
+      </div>
+      <div class="thumbnail" onclick="loadDashboard('dashboard2.html')">
+        <img src="img/dashboard2.png" alt="Dashboard 2">
+        <p>Dashboard Financeiro</p>
+      </div>
+      <div class="thumbnail" onclick="loadDashboard('dashboard3.html')">
+        <img src="img/dashboard3.png" alt="Dashboard 3">
+        <p>Dashboard de RH</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Habilidades -->
+  <section class="skills">
+    <h2>Habilidades</h2>
+    <ul>
+      <li>Power BI</li>
+      <li>SQL</li>
+      <li>ETL</li>
+      <li>Excel Avançado</li>
+      <li>Python para análise de dados</li>
+    </ul>
+  </section>
+
+  <!-- Contato -->
+  <section class="contact">
+    <h2>Contato</h2>
+    <form>
+      <label for="name">Nome</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="email">Email</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="message">Mensagem</label>
+      <textarea id="message" name="message" rows="4" required></textarea>
+
+      <button type="submit">Enviar</button>
+    </form>
+    <div class="social-links">
+      <a href="#">LinkedIn</a>
+      <a href="#">GitHub</a>
+    </div>
+  </section>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
