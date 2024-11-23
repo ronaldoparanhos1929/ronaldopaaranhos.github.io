@@ -4,8 +4,21 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Portfólio de Dashboards - Ronaldo Paranhos Carvalho</title>
-  <!-- <link rel="stylesheet" href="css/style.css"> -->
   <link rel="stylesheet" href="../css/style.css">
+  <style>
+    /* Centralizar o iframe */
+    .dashboard-embed {
+      display: flex;
+      justify-content: center; /* Centraliza horizontalmente */
+      align-items: center; /* Centraliza verticalmente, se necessário */
+      margin: 20px 0; /* Espaçamento ao redor */
+    }
+
+    iframe {
+      max-width: 100%; /* Garante que o iframe se ajuste à largura da tela */
+      height: 600px; /* Altura fixa, mas pode ser ajustada conforme necessário */
+    }
+  </style>
 </head>
 <body>
 
@@ -38,8 +51,7 @@
   <!-- Área para o BI Embedado -->
   <section class="dashboard-embed">
     <h3>Visualize o Dashboard Fluxo de Caixa</h3>
-    <!-- Aqui você pode adicionar o código de embed do seu BI -->
-    <iframe src="https://app.powerbi.com/view?r=link_do_dashboard" width="800" height="600" frameborder="0" allowFullScreen="true"></iframe>
+    <iframe title="Fluxo Caixa" src="https://app.powerbi.com/reportEmbed?reportId=55c13815-af39-4152-a4c3-96798864ff29&autoAuth=true&ctid=1f5e315c-1bb1-4fe1-8233-1262df07a483" frameborder="0" allowFullScreen="true"></iframe>
   </section>
 
   <!-- Galeria de Imagens -->
