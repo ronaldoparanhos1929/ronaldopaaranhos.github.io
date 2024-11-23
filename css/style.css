@@ -1,106 +1,61 @@
-/* Estilos gerais */
-body {
-  font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 0;
-  background-color: #f4f4f4;
-}
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfólio de Dashboards - Ronaldo Paranhos Carvalho</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
 
-/* Navegação do topo */
-.navbar {
-  display: flex;
-  justify-content: center;
-  background-color: #333;
-  padding: 10px;
-}
+  <!-- Topo com Botões de Navegação -->
+  <header class="header">
+    <nav class="navbar">
+      <a href="#fluxo-caixa" class="nav-button">Fluxo de Caixa</a>
+      <a href="#dre-contabil" class="nav-button">DRE Contábil</a>
+      <a href="#outro-dashboard" class="nav-button">Outro Dashboard</a>
+    </nav>
+  </header>
 
-.nav-button {
-  color: white;
-  text-decoration: none;
-  padding: 10px 20px;
-  margin: 0 10px;
-  font-size: 16px;
-  background-color: #007bff;
-  border-radius: 5px;
-}
+  <!-- Banner -->
+  <section class="banner">
+    <img src="img/banner.jpg" alt="Banner de Indicadores" class="banner-img">
+  </section>
 
-.nav-button:hover {
-  background-color: #0056b3;
-}
+  <!-- Texto de Introdução -->
+  <section class="introduction">
+    <p>Entrego indicadores da sua empresa confiáveis e atualizados automaticamente na palma da sua mão. Isso vai tornar você um líder mais eficiente, fazendo a equipe bater mais metas, com decisões embasadas em números sempre atualizados, sem depender de ninguém.</p>
+    <p>Todo dashboard (painel de indicadores) é personalizado para sua realidade. Aqui estão apenas exemplos.</p>
+  </section>
 
-/* Banner */
-.banner {
-  text-align: center;
-  margin-top: 20px;
-}
+  <!-- Texto Descritivo do Dashboard -->
+  <section class="dashboard-description">
+    <h2>Dashboard Fluxo de Caixa</h2>
+    <p>Com indicadores de contas a pagar, contas a receber e capital de giro, todos atualizados em tempo real.</p>
+  </section>
 
-.banner-img {
-  width: 100%;
-  max-height: 400px;
-  object-fit: cover;
-}
+  <!-- Área para o BI Embedado -->
+  <section class="dashboard-embed">
+    <h3>Visualize o Dashboard Fluxo de Caixa</h3>
+    <!-- Aqui você pode adicionar o código de embed do seu BI -->
+    <iframe src="https://app.powerbi.com/view?r=link_do_dashboard" width="800" height="600" frameborder="0" allowFullScreen="true"></iframe>
+  </section>
 
-/* Seção de introdução */
-.introduction {
-  padding: 20px;
-  background-color: #fff;
-  margin: 20px 0;
-  text-align: center;
-}
+  <!-- Botão WhatsApp -->
+  <section class="contact">
+    <a href="https://wa.me/55719991044482?text=Tenho%20interesse%20em%20contratar%20seu%20serviço." class="btn" target="_blank">Fale comigo no WhatsApp</a>
+  </section>
 
-/* Descrição do Dashboard */
-.dashboard-description {
-  padding: 20px;
-  background-color: #fff;
-  margin: 20px 0;
-  text-align: center;
-}
+  <!-- Mensagem de Interesse -->
+  <section class="interest-message">
+    <p>Transforme os dados da sua empresa em decisões inteligentes e aumente a eficiência do seu time. Entre em contato e veja como um dashboard personalizado pode ajudar a sua empresa a crescer!</p>
+  </section>
 
-/* Embed do BI */
-.dashboard-embed {
-  text-align: center;
-  padding: 20px;
-}
+  <!-- Final da Página -->
+  <footer class="footer">
+    <p>&copy; 2024 Ronaldo Paranhos Carvalho. Todos os direitos reservados.</p>
+  </footer>
 
-.dashboard-embed iframe {
-  width: 100%;
-  max-width: 800px;
-  height: 600px;
-}
-
-/* Botão WhatsApp */
-.contact {
-  text-align: center;
-  margin: 20px 0;
-}
-
-.btn {
-  display: inline-block;
-  padding: 10px 20px;
-  background-color: #28a745;
-  color: white;
-  text-align: center;
-  border-radius: 5px;
-  text-decoration: none;
-  font-size: 16px;
-}
-
-.btn:hover {
-  background-color: #218838;
-}
-
-/* Mensagem de interesse */
-.interest-message {
-  text-align: center;
-  padding: 20px;
-  background-color: #fff;
-  margin: 20px 0;
-}
-
-/* Rodapé */
-.footer {
-  text-align: center;
-  padding: 10px;
-  background-color: #333;
-  color: white;
-}
+  <script src="js/main.js"></script>
+</body>
+</html>
