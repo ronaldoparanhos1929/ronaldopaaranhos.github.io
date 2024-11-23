@@ -1,19 +1,23 @@
 
 Aqui está a estrutura do código para o portfólio interativo de BI. Ele inclui uma introdução, galeria de projetos, lista de habilidades e uma seção de contato. Comentei cada parte para facilitar a edição e manutenção. A organização em pastas é indicada no início.
 
-Estrutura de Pastas
-scss
-Copiar código
-portfolio/
+root/
 │
-├── index.html         (Página principal)
+├── index.html            # Página inicial
+├── omega-shopee.html     # Página da loja
+│
+├── CSS/
+│   └── style.css         # Arquivo de estilos
+│
 ├── dashboards/
-│   ├── dashboard1.html
+│   ├── dashboard1.html   # Dashboards
 │   ├── dashboard2.html
-│   ├── dashboard3.html
+│   └── dashboard3.html
 │
-├── css/
-│   ├── style.css       (Estilos principais)
+├── img/                  # Pasta para imagens
+│   ├── banner.jpg        # Banner da loja
+│   ├── product1.jpg      # Imagem do produto 1
+│   └── product2.jpg      # Imagem do produto 2
 │
 ├── js/
-│   ├── main.js         (JavaScript interativo)
+│   └── main.js           # Script principal
