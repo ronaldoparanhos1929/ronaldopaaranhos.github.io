@@ -14,10 +14,13 @@ root/
 │   ├── dashboard2.html
 │   └── dashboard3.html
 │
-├── img/                  # Pasta para imagens
-│   ├── banner.jpg        # Banner da loja
-│   ├── product1.jpg      # Imagem do produto 1
-│   └── product2.jpg      # Imagem do produto 2
+├── img/
+│   ├── favicon-portfolio.ico  # Favicon do portfólio
+│   ├── favicon-omega.ico      # Favicon da loja Ômega
+│   ├── banner.jpg             # Banner da loja
+│   ├── product1.jpg           # Produto 1
+│   └── product2.jpg           # Produto 2
 │
 ├── js/
 │   └── main.js           # Script principal
+
