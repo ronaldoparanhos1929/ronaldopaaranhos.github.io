@@ -78,4 +78,37 @@ body, h1, h2, p, ul, li, form, input, textarea, button {
       gap: 10px;
     }
   }
-  
+
+
+
+/* Galeria de Imagens */
+.image-gallery {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    flex-wrap: wrap; /* Permite que as imagens quebrem para a linha de baixo se houver mais de 3 */
+}
+
+.image-item {
+    flex: 1;
+    max-width: 30%; /* Controla o tamanho das imagens */
+    box-sizing: border-box;
+    transition: transform 0.3s ease;
+}
+
+.image-item img {
+    width: 100%; /* Faz a imagem se ajustar ao tamanho do container */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.image-item:hover {
+    transform: scale(1.05);
+}
+
+@media (max-width: 768px) {
+    .image-item {
+        max-width: 100%; /* Para dispositivos móveis, as imagens ficam 100% do tamanho */
+    }
+}
+
