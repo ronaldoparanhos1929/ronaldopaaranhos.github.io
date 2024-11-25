@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meus Links</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #d4f5d6; /* Fundo verde claro */
+            color: #333;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .container {
+            text-align: center;
+            max-width: 600px;
+            width: 100%;
+            padding: 20px;
+            background: #ffffff;
+            box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+            border-radius: 15px;
+        }
+
+        .profile-pic {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            margin: 0 auto 15px;
+            border: 3px solid #34a853; /* Verde Google */
+            display: block;
+        }
+
+        h1 {
+            font-size: 28px;
+            margin: 15px 0;
+            color: #34a853;
+        }
+
+        p {
+            font-size: 16px;
+            color: #555;
+        }
+
+        .links {
+            margin: 20px 0;
+        }
+
+        .link-item {
+            display: block;
+            margin: 10px 0;
+            padding: 12px 20px;
+            text-align: center;
+            text-decoration: none;
+            font-size: 18px;
+            color: #fff;
+            background-color: #34a853;
+            border-radius: 25px;
+            transition: all 0.3s;
+        }
+
+        .link-item:hover {
+            background-color: #2a8b44;
+            transform: translateY(-3px);
+        }
+
+        .social-icons {
+            margin-top: 20px;
+        }
+
+        .social-icons a {
+            margin: 0 10px;
+            text-decoration: none;
+            font-size: 0;
+        }
+
+        .social-icons a img {
+            width: 40px;
+            height: 40px;
+            transition: transform 0.3s;
+        }
+
+        .social-icons a img:hover {
+            transform: scale(1.1);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="profile.jpg" alt="Foto de Perfil" class="profile-pic">
+        <h1>Ronaldo Paranhos</h1>
+        <p>Transformando dados em insights poderosos!</p>
+
+        <div class="links">
+            <a href="https://meusite.com" target="_blank" class="link-item">Meu Site</a>
+            <a href="https://linkedin.com/in/ronaldoparanhos" target="_blank" class="link-item">LinkedIn</a>
+            <a href="https://wa.me/55719991044482" target="_blank" class="link-item">WhatsApp</a>
+            <a href="https://github.com/ronaldoparanhos" target="_blank" class="link-item">GitHub</a>
+        </div>
+
+        <div class="social-icons">
+            <a href="https://facebook.com" target="_blank"><img src="img/facebook-icon.png" alt="Facebook"></a>
+            <a href="https://twitter.com" target="_blank"><img src="img/twitter-icon.png" alt="Twitter"></a>
+            <a href="https://instagram.com" target="_blank"><img src="img/instagram-icon.png" alt="Instagram"></a>
+        </div>
+    </div>
+</body>
+</html>
