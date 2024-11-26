@@ -5,6 +5,7 @@ root/
 │
 ├── index.html            # Página inicial
 ├── omega-shopee.html     # Página da loja
+├── link.html     # Página do Link
 │
 ├── CSS/
 │   └── style.css         # Arquivo de estilos
