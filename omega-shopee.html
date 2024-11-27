@@ -18,6 +18,7 @@
             background-color: #000; /* Preto */
             text-align: center;
             color: #00A859; /* Verde */
+            /*color: #a6a95a; /* Verde Oliva */
             padding: 10px 0;
         }
         header h1 {
@@ -87,10 +88,6 @@
         .product-card .details {
             padding: 15px;
             text-align: center;
-            display: flex;
-            flex-direction: column;
-            justify-content: space-between;
-            height: 100%;
         }
         .product-card h3 {
             margin: 0 0 10px;
@@ -111,15 +108,17 @@
             padding: 10px 15px;
             font-size: 14px;
             background-color: #00A859;
+            /* background-color: #a6a95a;*/
+            /* background-color: #00A859;*/
             color: #fff;
             border: none;
             border-radius: 5px;
             cursor: pointer;
-            margin-top: auto;
-            width: 100%;
         }
         .product-card button:hover {
-            background-color: #8d8f4a;
+           /* background-color: #8d8f4a;*/
+           /* background-color: #00A859;*/
+            background-color: #8d8f4a;            
         }
 
         footer {
@@ -142,7 +141,16 @@
         <p>Produtos incríveis, preços imperdíveis!</p>
     </header>
 
+    <!-- Banner Simples -->
+    <!--    
+    <div class="banner">
+          <img src="img/banner.jpg" alt="Banner da Loja">
+    </div>
+
+-->
     <!-- Banner Dinâmico (Carrossel) -->
+    <!-- Descomente para usar o carrossel -->
+    
     <div class="carousel">
         <div class="carousel-images">
             <img src="img/banner.jpg" alt="Banner da Loja">
@@ -150,12 +158,14 @@
             <img src="img/banner3.jpg" alt="Banner da Loja">
         </div>
     </div>
+    
 
     <!-- Produtos -->
     <div class="container">
         <div class="product-grid">
             <!-- Produto 1 -->
             <div class="product-card">
+              <!--   <img src="https://via.placeholder.com/300x200" alt="Produto 1"> -->
                 <img src="img/product1.jpg" alt="Produto 0001">
                 <div class="details">
                     <h3>Smartwatch HW68 Mini Watch 8 Mini Item Nº 0001</h3>
@@ -163,7 +173,7 @@
                     <p class="price">R$127,68 - R$135,66</p>        
                     <button onclick="window.location.href='https://s.shopee.com.br/8KYW4FGzbi'" class="btn">Clique aqui para comprar na Shopee!</button>
                 </div>
-            </div>
+            </div>            
             <!-- Produto 2 -->
             <div class="product-card">
                 <img src="img/product2.jpg" alt="Produto 0002">
@@ -194,6 +204,7 @@
                     <button onclick="window.location.href='https://s.shopee.com.br/2Axz4iSegK'" class="btn">Clique aqui para comprar na Shopee!</button>
                 </div>
             </div>
+            <!-- Adicione mais produtos aqui -->
         </div>
     </div>
 
