@@ -3,83 +3,83 @@ body, h1, h2, p, ul, li, form, input, textarea, button {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-  }
+}
   
-  body {
+body {
     font-family: Arial, sans-serif;
     background-color: #1c1c1c;
     color: #f0f0f0;
     line-height: 1.6;
-  }
+}
   
-  header {
+header {
     text-align: center;
     padding: 20px;
     background-color: #3b5323;
-  }
+}
   
-  .introduction, .projects, .skills, .contact {
+.introduction, .projects, .skills, .contact {
     padding: 20px;
     text-align: center;
-  }
+}
   
-  h2 {
+h2 {
     margin-bottom: 20px;
     color: #85bb65;
-  }
+}
   
-  /* Galeria de projetos */
-  .gallery {
+/* Galeria de projetos */
+.gallery {
     display: flex;
     justify-content: center;
     gap: 20px;
-  }
+}
   
-  .thumbnail {
+.thumbnail {
     width: 150px;
     cursor: pointer;
     transition: transform 0.3s ease;
-  }
+}
   
-  .thumbnail:hover {
+.thumbnail:hover {
     transform: scale(1.1);
-  }
+}
   
-  /* Contato */
-  form {
+/* Contato */
+form {
     max-width: 400px;
     margin: auto;
     display: flex;
     flex-direction: column;
-  }
+}
   
-  form input, form textarea, form button {
+form input, form textarea, form button {
     margin-bottom: 10px;
     padding: 10px;
     border: 1px solid #ddd;
-  }
+}
   
-  form button {
+form button {
     background-color: #3b5323;
     color: white;
     border: none;
     cursor: pointer;
     transition: background-color 0.3s ease;
-  }
+    width: 100%; /* Faz o botão ocupar toda a largura disponível */
+    box-sizing: border-box; /* Inclui padding no cálculo da largura */
+}
   
-  form button:hover {
+form button:hover {
     background-color: #85bb65;
-  }
+}
   
-  /* Responsividade */
-  @media (max-width: 768px) {
+/* Responsividade */
+@media (max-width: 768px) {
     .gallery {
-      flex-direction: column;
-      gap: 10px;
+        flex-direction: column;
+        gap: 10px;
     }
-  }
-
-
+}
 
 /* Galeria de Imagens */
 .image-gallery {
@@ -112,8 +112,6 @@ body, h1, h2, p, ul, li, form, input, textarea, button {
     }
 }
 
-
-
 /* Ajustando o tamanho da imagem dentro da thumbnail */
 .thumbnail img {
     width: 100%; /* Faz a imagem se ajustar ao tamanho do container */
@@ -122,4 +120,3 @@ body, h1, h2, p, ul, li, form, input, textarea, button {
     border-radius: 8px; /* Se desejar bordas arredondadas */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adiciona sombra opcional */
 }
-
